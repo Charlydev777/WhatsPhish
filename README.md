@@ -1,6 +1,8 @@
-AVISO: Esta herramienta fue creada para fines eticos,
+# Disclaimer
+Esta herramienta fue creada para fines eticos,
 no me hago responsable del mal uso que ested le de.
 
+# Ejecución 
 Paara ejecutarlo correctamente debe seguir estos pasos:
 1. bash install.sh
 2. bash run.sh
@@ -16,5 +18,6 @@ a su victima, utilize ingenieria social.
 NOTA: El link es el que termina con ".lrt" solo copie y pegue.
 
 
-Tutorial de uso en
-
+Tutorial de uso en: https://
+# Aun esta en periodo de prueba
+no se asegura su efectividad al 100%
