@@ -2,6 +2,9 @@
 Esta herramienta fue creada para fines eticos,
 no me hago responsable del mal uso que ested le de.
 
+# Requisitos
+1. 500MB disponible de almacenamiento
+
 # Ejecución 
 Paara ejecutarlo correctamente debe seguir estos pasos:
 1. bash install.sh
