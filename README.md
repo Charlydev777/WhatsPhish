@@ -17,7 +17,7 @@ ssh -R 80:localhost:8080 nokey@localhost.run
 este comando va generar un link para que le mande por mensaje de texto
 a su victima, utilise ingenieria social.
 
-![WhatsPhish](https://github.com/Charlydev777/WhatsPhish/blob/main/images/Whatsphish.jpg)
+![WhatsPhish](https://github.com/Charlydev777/WhatsPhish/blob/master/images/Whatsphish.jpg)
 
 NOTA: El link es el que termina con ".lrt" solo copie y pegue.
 
