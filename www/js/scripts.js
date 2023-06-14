@@ -6,7 +6,7 @@ function alerta(){
         toast: true,
         position: 'top-end',
         showConfirmButton: false,
-        timer: 3500,
+        timer: 4000,
         timerProgressBar: false,
         didOpen: (toast) => {
             toast.addEventListener('mouseenter', Swal.stopTimer)
