@@ -27,7 +27,7 @@ Este comando va generar un link para que le puede enviar via SMS o cualquier med
 a su victima, utilise ingenieria social.
 
 
-![WhatsPhish2](https://github.com/Charlydev777/WhatsPhish/blob/main/images/WhatsPhish2.jpg)
+![WhatsPhish2](images/WhatsPhish2.jpg)
 
 >NOTA: El link es el que termina con _```.lrt```_ solo copie y pegue.
 
