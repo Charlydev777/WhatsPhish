@@ -1,4 +1,3 @@
-credencialss.txt
-ip.txt
-usernumbers.txt
-ips.txt
+*
+!README.md
+
