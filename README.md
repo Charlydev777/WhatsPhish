@@ -1,6 +1,6 @@
 # **WhatsPhish**
 _**Este es un prototipo de phishing para Wh4tsApp**_
-![WhatsPhish](https://github.com/Charlydev777/WhatsPhish/blob/main/images/Whatsphish.jpg)
+![WhatsPhish](images/Whatsphish.jpg)
 
 # Disclaimer
 Esta herramienta fue creada para fines éticos,
