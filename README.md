@@ -42,5 +42,5 @@ si desea obtener la version mas reciente use:
 # Contacto
 ### Tutorial de uso [Aqui](https://facebook.com/post?ha66b2Evs=%20%65%hatUm)
 
-### Sigueme en [Facebook](https://m.facebook.com/)
+### Sigueme en [Facebook](https://www.facebook.com/profile.php?id=100090664256899&mibextid=ZbWKwL)
 
